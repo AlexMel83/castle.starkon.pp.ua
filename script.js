@@ -102,54 +102,22 @@
  }
 },
 {
- "viewerArea": "this.MainViewer",
- "gyroscopeVerticalDraggingEnabled": true,
- "buttonToggleHotspots": "this.IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96",
- "buttonToggleGyroscope": "this.IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A",
- "mouseControlMode": "drag_acceleration",
- "id": "MainViewerPanoramaPlayer",
- "class": "PanoramaPlayer",
- "buttonCardboardView": [
-  "this.IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB",
-  "this.IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270"
- ],
- "displayPlaybackBar": true,
- "touchControlMode": "drag_rotation",
- "gyroscopeEnabled": true
-},
-{
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
+ "duration": 5000,
+ "id": "album_514D62E1_5D80_44CF_41C4_90CB1C672CE3",
+ "width": 750,
+ "label": "IMG20241117122700",
+ "class": "Photo",
+ "image": {
+  "class": "ImageResource",
+  "levels": [
    {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
+    "class": "ImageResourceLevel",
+    "url": "media/album_514D62E1_5D80_44CF_41C4_90CB1C672CE3.jpg"
    }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
+  ]
  },
- "automaticZoomSpeed": 10,
- "id": "camera_779A5A46_648F_5EFA_41D4_64CBF4039EE3",
- "initialPosition": {
-  "yaw": -140.78,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
+ "thumbnailUrl": "media/album_514D62E1_5D80_44CF_41C4_90CB1C672CE3_t.jpg",
+ "height": 1000
 },
 {
  "frames": [
@@ -451,24 +419,6 @@
  "height": 750
 },
 {
- "duration": 5000,
- "id": "album_514D62E1_5D80_44CF_41C4_90CB1C672CE3",
- "width": 750,
- "label": "IMG20241117122700",
- "class": "Photo",
- "image": {
-  "class": "ImageResource",
-  "levels": [
-   {
-    "class": "ImageResourceLevel",
-    "url": "media/album_514D62E1_5D80_44CF_41C4_90CB1C672CE3.jpg"
-   }
-  ]
- },
- "thumbnailUrl": "media/album_514D62E1_5D80_44CF_41C4_90CB1C672CE3_t.jpg",
- "height": 1000
-},
-{
  "rotationY": 0,
  "rotationX": 0,
  "hfov": 10.88,
@@ -495,40 +445,6 @@
  "showDuration": 500,
  "popupMaxHeight": "95%",
  "popupMaxWidth": "95%"
-},
-{
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
- },
- "automaticZoomSpeed": 10,
- "id": "camera_766209AD_648F_5D8E_4197_25C8FAC51230",
- "initialPosition": {
-  "yaw": -66.59,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
 },
 {
  "rotationY": 0,
@@ -685,6 +601,74 @@
  "popupMaxWidth": "95%"
 },
 {
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   }
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_7D2EA1EB_6491_CD89_41BA_00D121BEF716",
+ "initialPosition": {
+  "yaw": -53.48,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
+},
+{
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   }
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_7D1B319D_6491_CD89_4188_67B25BFF9F9E",
+ "initialPosition": {
+  "yaw": 141.2,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
+},
+{
  "duration": 5000,
  "id": "album_560CA2C1_5D80_44CC_4156_46AB2A8F847D",
  "width": 917,
@@ -710,34 +694,32 @@
  "thumbnailUrl": "media/album_43124356_5B79_8101_41CB_AE190C4ECF93_t.png"
 },
 {
- "levels": [
-  {
-   "url": "media/popup_43DD476D_5B7F_8103_41D3_A311D548C0ED_0_0.jpg",
-   "width": 3000,
-   "class": "ImageResourceLevel",
-   "height": 4000
-  },
-  {
-   "url": "media/popup_43DD476D_5B7F_8103_41D3_A311D548C0ED_0_1.jpg",
-   "width": 1536,
-   "class": "ImageResourceLevel",
-   "height": 2048
-  },
-  {
-   "url": "media/popup_43DD476D_5B7F_8103_41D3_A311D548C0ED_0_2.jpg",
-   "width": 768,
-   "class": "ImageResourceLevel",
-   "height": 1024
-  },
-  {
-   "url": "media/popup_43DD476D_5B7F_8103_41D3_A311D548C0ED_0_3.jpg",
-   "width": 384,
-   "class": "ImageResourceLevel",
-   "height": 512
-  }
- ],
- "class": "ImageResource",
- "id": "ImageResource_41C4EB29_5B08_8103_41D6_61459E2B9D43"
+ "rotationY": 0,
+ "rotationX": 0,
+ "hfov": 110.74,
+ "rotationZ": 0,
+ "showEasing": "cubic_in",
+ "id": "popup_4E58E27C_5B09_8301_41C0_F8CCA4564AAC",
+ "yaw": -52.66,
+ "popupDistance": 100,
+ "hideEasing": "cubic_out",
+ "class": "PopupPanoramaOverlay",
+ "image": {
+  "class": "ImageResource",
+  "levels": [
+   {
+    "url": "media/popup_4E58E27C_5B09_8301_41C0_F8CCA4564AAC_0_2.jpg",
+    "width": 1024,
+    "class": "ImageResourceLevel",
+    "height": 768
+   }
+  ]
+ },
+ "pitch": 5.34,
+ "hideDuration": 500,
+ "showDuration": 500,
+ "popupMaxHeight": "95%",
+ "popupMaxWidth": "95%"
 },
 {
  "levels": [
@@ -768,6 +750,40 @@
  ],
  "class": "ImageResource",
  "id": "ImageResource_4D75602A_5B09_9F01_41CC_7D18F889BAC5"
+},
+{
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   }
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_7D507132_6491_CA9A_4173_0F3757E4CA8A",
+ "initialPosition": {
+  "yaw": 30.22,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
 },
 {
  "frames": [
@@ -1524,32 +1540,20 @@
  "thumbnailUrl": "media/panorama_4EA2291E_45AD_CD50_41C1_5C655A48CAE6_t.jpg"
 },
 {
- "rotationY": 0,
- "rotationX": 0,
- "hfov": 110.74,
- "rotationZ": 0,
- "showEasing": "cubic_in",
- "id": "popup_4E58E27C_5B09_8301_41C0_F8CCA4564AAC",
- "yaw": -52.66,
- "popupDistance": 100,
- "hideEasing": "cubic_out",
- "class": "PopupPanoramaOverlay",
- "image": {
-  "class": "ImageResource",
-  "levels": [
-   {
-    "url": "media/popup_4E58E27C_5B09_8301_41C0_F8CCA4564AAC_0_2.jpg",
-    "width": 1024,
-    "class": "ImageResourceLevel",
-    "height": 768
-   }
-  ]
- },
- "pitch": 5.34,
- "hideDuration": 500,
- "showDuration": 500,
- "popupMaxHeight": "95%",
- "popupMaxWidth": "95%"
+ "viewerArea": "this.MainViewer",
+ "gyroscopeVerticalDraggingEnabled": true,
+ "buttonToggleHotspots": "this.IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96",
+ "buttonToggleGyroscope": "this.IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A",
+ "mouseControlMode": "drag_acceleration",
+ "id": "MainViewerPanoramaPlayer",
+ "class": "PanoramaPlayer",
+ "buttonCardboardView": [
+  "this.IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB",
+  "this.IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270"
+ ],
+ "displayPlaybackBar": true,
+ "touchControlMode": "drag_rotation",
+ "gyroscopeEnabled": true
 },
 {
  "class": "PanoramaCamera",
@@ -1674,32 +1678,32 @@
 {
  "levels": [
   {
-   "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_0.jpg",
+   "url": "media/popup_43DD476D_5B7F_8103_41D3_A311D548C0ED_0_0.jpg",
    "width": 3000,
    "class": "ImageResourceLevel",
    "height": 4000
   },
   {
-   "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_1.jpg",
+   "url": "media/popup_43DD476D_5B7F_8103_41D3_A311D548C0ED_0_1.jpg",
    "width": 1536,
    "class": "ImageResourceLevel",
    "height": 2048
   },
   {
-   "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_2.jpg",
+   "url": "media/popup_43DD476D_5B7F_8103_41D3_A311D548C0ED_0_2.jpg",
    "width": 768,
    "class": "ImageResourceLevel",
    "height": 1024
   },
   {
-   "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_3.jpg",
+   "url": "media/popup_43DD476D_5B7F_8103_41D3_A311D548C0ED_0_3.jpg",
    "width": 384,
    "class": "ImageResourceLevel",
    "height": 512
   }
  ],
  "class": "ImageResource",
- "id": "ImageResource_4CE2331D_5B09_8103_41D6_87F2B89B28BA"
+ "id": "ImageResource_41C4EB29_5B08_8103_41D6_61459E2B9D43"
 },
 {
  "frames": [
@@ -2097,13 +2101,42 @@
   "class": "PanoramaCameraSequence"
  },
  "automaticZoomSpeed": 10,
- "id": "camera_7654F9D1_648F_5D96_41C0_1B4728A65273",
+ "id": "camera_7D0811BD_6491_CD8E_41AA_BB3A58C4EEB6",
  "initialPosition": {
-  "yaw": 125.76,
-  "hfov": 120,
+  "yaw": 141.2,
   "class": "PanoramaCameraPosition",
   "pitch": 0
  }
+},
+{
+ "levels": [
+  {
+   "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_0.jpg",
+   "width": 3000,
+   "class": "ImageResourceLevel",
+   "height": 4000
+  },
+  {
+   "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_1.jpg",
+   "width": 1536,
+   "class": "ImageResourceLevel",
+   "height": 2048
+  },
+  {
+   "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_2.jpg",
+   "width": 768,
+   "class": "ImageResourceLevel",
+   "height": 1024
+  },
+  {
+   "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_3.jpg",
+   "width": 384,
+   "class": "ImageResourceLevel",
+   "height": 512
+  }
+ ],
+ "class": "ImageResource",
+ "id": "ImageResource_4CE2331D_5B09_8103_41D6_87F2B89B28BA"
 },
 {
  "frames": [
@@ -2421,6 +2454,40 @@
  }
 },
 {
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   }
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_7D3E21CC_6491_CD8E_41D5_C0C7B8BE4014",
+ "initialPosition": {
+  "yaw": -139.37,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
+},
+{
  "duration": 5000,
  "id": "album_50D0A6FA_5D81_CCBD_41CB_9220EBC232DF",
  "width": 750,
@@ -2439,34 +2506,19 @@
  "height": 1000
 },
 {
- "levels": [
-  {
-   "url": "media/popup_4E1FCB0A_5B09_8101_41C0_2CAF7487B382_0_0.jpg",
-   "width": 3000,
-   "class": "ImageResourceLevel",
-   "height": 4000
-  },
-  {
-   "url": "media/popup_4E1FCB0A_5B09_8101_41C0_2CAF7487B382_0_1.jpg",
-   "width": 1536,
-   "class": "ImageResourceLevel",
-   "height": 2048
-  },
-  {
-   "url": "media/popup_4E1FCB0A_5B09_8101_41C0_2CAF7487B382_0_2.jpg",
-   "width": 768,
-   "class": "ImageResourceLevel",
-   "height": 1024
-  },
-  {
-   "url": "media/popup_4E1FCB0A_5B09_8101_41C0_2CAF7487B382_0_3.jpg",
-   "width": 384,
-   "class": "ImageResourceLevel",
-   "height": 512
-  }
+ "viewerArea": "this.MainViewer",
+ "class": "PhotoAlbumPlayer",
+ "buttonPrevious": [
+  "this.IconButton_23F7E7B7_0C0A_6293_419F_D3D84EB3AFBD",
+  "this.IconButton_2BE71718_0D55_6990_41A5_73D31D902E1D",
+  "this.IconButton_2A19BC4C_0D3B_DFF0_419F_D0DCB12FF482"
  ],
- "class": "ImageResource",
- "id": "ImageResource_4FD84048_5B08_7F01_41D2_0E1014BE8A40"
+ "id": "MainViewerPhotoAlbumPlayer",
+ "buttonNext": [
+  "this.IconButton_23F037B7_0C0A_6293_41A2_C1707EE666E4",
+  "this.IconButton_28BF3E40_0D4B_DBF0_41A3_D5D2941E6E14",
+  "this.IconButton_2A19AC4C_0D3B_DFF0_4181_A2C230C2E510"
+ ]
 },
 {
  "duration": 5000,
@@ -2515,38 +2567,34 @@
  "popupMaxWidth": "95%"
 },
 {
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
- },
- "automaticZoomSpeed": 10,
- "id": "camera_77FE2A75_648F_5E9E_41BC_5540FA3703FB",
- "initialPosition": {
-  "yaw": 141.2,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
+ "levels": [
+  {
+   "url": "media/popup_4E1FCB0A_5B09_8101_41C0_2CAF7487B382_0_0.jpg",
+   "width": 3000,
+   "class": "ImageResourceLevel",
+   "height": 4000
+  },
+  {
+   "url": "media/popup_4E1FCB0A_5B09_8101_41C0_2CAF7487B382_0_1.jpg",
+   "width": 1536,
+   "class": "ImageResourceLevel",
+   "height": 2048
+  },
+  {
+   "url": "media/popup_4E1FCB0A_5B09_8101_41C0_2CAF7487B382_0_2.jpg",
+   "width": 768,
+   "class": "ImageResourceLevel",
+   "height": 1024
+  },
+  {
+   "url": "media/popup_4E1FCB0A_5B09_8101_41C0_2CAF7487B382_0_3.jpg",
+   "width": 384,
+   "class": "ImageResourceLevel",
+   "height": 512
+  }
+ ],
+ "class": "ImageResource",
+ "id": "ImageResource_4FD84048_5B08_7F01_41D2_0E1014BE8A40"
 },
 {
  "duration": 5000,
@@ -2635,19 +2683,66 @@
  }
 },
 {
- "viewerArea": "this.MainViewer",
- "class": "PhotoAlbumPlayer",
- "buttonPrevious": [
-  "this.IconButton_23F7E7B7_0C0A_6293_419F_D3D84EB3AFBD",
-  "this.IconButton_2BE71718_0D55_6990_41A5_73D31D902E1D",
-  "this.IconButton_2A19BC4C_0D3B_DFF0_419F_D0DCB12FF482"
- ],
- "id": "MainViewerPhotoAlbumPlayer",
- "buttonNext": [
-  "this.IconButton_23F037B7_0C0A_6293_41A2_C1707EE666E4",
-  "this.IconButton_28BF3E40_0D4B_DBF0_41A3_D5D2941E6E14",
-  "this.IconButton_2A19AC4C_0D3B_DFF0_4181_A2C230C2E510"
- ]
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   }
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_7D6C816A_6491_CA8A_41B7_B6DCE6E4A175",
+ "initialPosition": {
+  "yaw": -140.78,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
+},
+{
+ "rotationY": 0,
+ "rotationX": 0,
+ "hfov": 33.55,
+ "rotationZ": 0,
+ "showEasing": "cubic_in",
+ "id": "popup_4876BD63_5B18_8100_41D3_0FEF52DD7019",
+ "yaw": -113.72,
+ "popupDistance": 100,
+ "hideEasing": "cubic_out",
+ "class": "PopupPanoramaOverlay",
+ "image": {
+  "class": "ImageResource",
+  "levels": [
+   {
+    "url": "media/popup_4876BD63_5B18_8100_41D3_0FEF52DD7019_0_2.jpg",
+    "width": 1024,
+    "class": "ImageResourceLevel",
+    "height": 768
+   }
+  ]
+ },
+ "pitch": 3.06,
+ "hideDuration": 500,
+ "showDuration": 500,
+ "popupMaxHeight": "95%",
+ "popupMaxWidth": "95%"
 },
 {
  "items": [
@@ -2827,32 +2922,22 @@
  "popupMaxWidth": "95%"
 },
 {
- "rotationY": 0,
- "rotationX": 0,
- "hfov": 33.55,
- "rotationZ": 0,
- "showEasing": "cubic_in",
- "id": "popup_4876BD63_5B18_8100_41D3_0FEF52DD7019",
- "yaw": -113.72,
- "popupDistance": 100,
- "hideEasing": "cubic_out",
- "class": "PopupPanoramaOverlay",
+ "duration": 5000,
+ "id": "album_511B65DC_5D80_4CF5_41D3_468C8393CBB8",
+ "width": 750,
+ "label": "IMG20241117122718",
+ "class": "Photo",
  "image": {
   "class": "ImageResource",
   "levels": [
    {
-    "url": "media/popup_4876BD63_5B18_8100_41D3_0FEF52DD7019_0_2.jpg",
-    "width": 1024,
     "class": "ImageResourceLevel",
-    "height": 768
+    "url": "media/album_511B65DC_5D80_4CF5_41D3_468C8393CBB8.jpg"
    }
   ]
  },
- "pitch": 3.06,
- "hideDuration": 500,
- "showDuration": 500,
- "popupMaxHeight": "95%",
- "popupMaxWidth": "95%"
+ "thumbnailUrl": "media/album_511B65DC_5D80_4CF5_41D3_468C8393CBB8_t.jpg",
+ "height": 1000
 },
 {
  "frames": [
@@ -3202,22 +3287,66 @@
  "id": "ImageResource_4FDBF048_5B08_7F01_41C9_E783C3002232"
 },
 {
- "duration": 5000,
- "id": "album_511B65DC_5D80_4CF5_41D3_468C8393CBB8",
- "width": 750,
- "label": "IMG20241117122718",
- "class": "Photo",
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   }
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_7D79D161_6491_CAB6_41D8_DEC22BC9C213",
+ "initialPosition": {
+  "yaw": 37.68,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
+},
+{
+ "rotationY": 0,
+ "rotationX": 0,
+ "hfov": 6.73,
+ "rotationZ": 0,
+ "showEasing": "cubic_in",
+ "id": "popup_4253B66B_5B09_8300_4193_A42F95294BBE",
+ "yaw": -160.11,
+ "popupDistance": 100,
+ "hideEasing": "cubic_out",
+ "class": "PopupPanoramaOverlay",
  "image": {
   "class": "ImageResource",
   "levels": [
    {
+    "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_2.jpg",
+    "width": 768,
     "class": "ImageResourceLevel",
-    "url": "media/album_511B65DC_5D80_4CF5_41D3_468C8393CBB8.jpg"
+    "height": 1024
    }
   ]
  },
- "thumbnailUrl": "media/album_511B65DC_5D80_4CF5_41D3_468C8393CBB8_t.jpg",
- "height": 1000
+ "pitch": -0.67,
+ "hideDuration": 500,
+ "showDuration": 500,
+ "popupMaxHeight": "95%",
+ "popupMaxWidth": "95%"
 },
 {
  "frames": [
@@ -3597,6 +3726,40 @@
  ],
  "class": "ImageResource",
  "id": "ImageResource_4FDA0048_5B08_7F01_41D6_27918FA44745"
+},
+{
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   }
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_7D60318E_6491_CD8A_41B1_724AD4FC046A",
+ "initialPosition": {
+  "yaw": -140.78,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
 },
 {
  "frames": [
@@ -4983,32 +5146,38 @@
  "thumbnailUrl": "media/panorama_4EA7C265_45AC_FFF0_41D0_182487412BA6_t.jpg"
 },
 {
- "rotationY": 0,
- "rotationX": 0,
- "hfov": 6.73,
- "rotationZ": 0,
- "showEasing": "cubic_in",
- "id": "popup_4253B66B_5B09_8300_4193_A42F95294BBE",
- "yaw": -160.11,
- "popupDistance": 100,
- "hideEasing": "cubic_out",
- "class": "PopupPanoramaOverlay",
- "image": {
-  "class": "ImageResource",
-  "levels": [
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
    {
-    "url": "media/popup_4253B66B_5B09_8300_4193_A42F95294BBE_0_2.jpg",
-    "width": 768,
-    "class": "ImageResourceLevel",
-    "height": 1024
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
    }
-  ]
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
  },
- "pitch": -0.67,
- "hideDuration": 500,
- "showDuration": 500,
- "popupMaxHeight": "95%",
- "popupMaxWidth": "95%"
+ "automaticZoomSpeed": 10,
+ "id": "camera_7D447141_6491_CAF6_41A1_6F715C9CD459",
+ "initialPosition": {
+  "yaw": 30.22,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
 },
 {
  "duration": 5000,
@@ -5103,6 +5272,41 @@
  ],
  "class": "ImageResource",
  "id": "ImageResource_4D74102A_5B09_9F01_41B7_59403A7501DF"
+},
+{
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   }
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_7D5F311C_6491_CA8E_41D6_03038DC00946",
+ "initialPosition": {
+  "yaw": 125.76,
+  "hfov": 120,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
 },
 {
  "levels": [
@@ -5215,40 +5419,6 @@
  "height": 1000
 },
 {
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
- },
- "automaticZoomSpeed": 10,
- "id": "camera_765D19BD_648F_5D8E_41B6_C2807CEA06B0",
- "initialPosition": {
-  "yaw": -66.59,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
-},
-{
  "rotationY": 0,
  "rotationX": 0,
  "hfov": 2.77,
@@ -5325,40 +5495,6 @@
  "id": "ImageResource_4CE5231D_5B09_8103_41C1_45502F31D146"
 },
 {
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
- },
- "automaticZoomSpeed": 10,
- "id": "camera_77E03AA6_648F_5FBA_41D7_594E911AE693",
- "initialPosition": {
-  "yaw": -53.48,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
-},
-{
  "duration": 5000,
  "id": "album_43124356_5B79_8101_41CB_AE190C4ECF93_23",
  "width": 2240,
@@ -5375,40 +5511,6 @@
  },
  "thumbnailUrl": "media/album_43124356_5B79_8101_41CB_AE190C4ECF93_23_t.jpg",
  "height": 3488
-},
-{
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
- },
- "automaticZoomSpeed": 10,
- "id": "camera_7642FA03_648F_5E7A_41D7_0843971B8839",
- "initialPosition": {
-  "yaw": 30.22,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
 },
 {
  "class": "PanoramaCamera",
@@ -5474,40 +5576,6 @@
  "id": "panorama_4EA9B1C6_45AC_DD30_41B4_B5B4B9714211_camera",
  "initialPosition": {
   "yaw": 0,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
-},
-{
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
- },
- "automaticZoomSpeed": 10,
- "id": "camera_764CF9F3_648F_5D9A_41C9_C1D79C825F2A",
- "initialPosition": {
-  "yaw": 30.22,
   "class": "PanoramaCameraPosition",
   "pitch": 0
  }
@@ -5588,40 +5656,6 @@
  "id": "panorama_4EA99590_45AD_C550_41CD_D71C2EBACCAD_camera",
  "initialPosition": {
   "yaw": 0,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
-},
-{
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
- },
- "automaticZoomSpeed": 10,
- "id": "camera_778D3A55_648F_5E99_41C4_AA3C96F6A1A9",
- "initialPosition": {
-  "yaw": 141.2,
   "class": "PanoramaCameraPosition",
   "pitch": 0
  }
@@ -6076,21 +6110,55 @@
 },
 {
  "duration": 5000,
- "id": "album_56AB03EB_5D81_C4D3_41AD_A0AEFF45DF72",
+ "id": "album_50F06F62_5D80_7DCD_41D6_956C0AD0F89D",
  "width": 750,
- "label": "IMG20241117122625",
+ "label": "IMG20241117122729",
  "class": "Photo",
  "image": {
   "class": "ImageResource",
   "levels": [
    {
     "class": "ImageResourceLevel",
-    "url": "media/album_56AB03EB_5D81_C4D3_41AD_A0AEFF45DF72.jpg"
+    "url": "media/album_50F06F62_5D80_7DCD_41D6_956C0AD0F89D.jpg"
    }
   ]
  },
- "thumbnailUrl": "media/album_56AB03EB_5D81_C4D3_41AD_A0AEFF45DF72_t.jpg",
+ "thumbnailUrl": "media/album_50F06F62_5D80_7DCD_41D6_956C0AD0F89D_t.jpg",
  "height": 1000
+},
+{
+ "class": "PanoramaCamera",
+ "initialSequence": {
+  "movements": [
+   {
+    "easing": "cubic_in",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   },
+   {
+    "easing": "linear",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 323
+   },
+   {
+    "easing": "cubic_out",
+    "yawSpeed": 7.96,
+    "class": "DistancePanoramaCameraMovement",
+    "yawDelta": 18.5
+   }
+  ],
+  "restartMovementOnUserInteraction": false,
+  "class": "PanoramaCameraSequence"
+ },
+ "automaticZoomSpeed": 10,
+ "id": "camera_7DA51107_6491_CA79_41C1_314C9AD66E5B",
+ "initialPosition": {
+  "yaw": -66.59,
+  "class": "PanoramaCameraPosition",
+  "pitch": 0
+ }
 },
 {
  "rotationY": 0,
@@ -6518,20 +6586,20 @@
 },
 {
  "duration": 5000,
- "id": "album_50F06F62_5D80_7DCD_41D6_956C0AD0F89D",
+ "id": "album_56AB03EB_5D81_C4D3_41AD_A0AEFF45DF72",
  "width": 750,
- "label": "IMG20241117122729",
+ "label": "IMG20241117122625",
  "class": "Photo",
  "image": {
   "class": "ImageResource",
   "levels": [
    {
     "class": "ImageResourceLevel",
-    "url": "media/album_50F06F62_5D80_7DCD_41D6_956C0AD0F89D.jpg"
+    "url": "media/album_56AB03EB_5D81_C4D3_41AD_A0AEFF45DF72.jpg"
    }
   ]
  },
- "thumbnailUrl": "media/album_50F06F62_5D80_7DCD_41D6_956C0AD0F89D_t.jpg",
+ "thumbnailUrl": "media/album_56AB03EB_5D81_C4D3_41AD_A0AEFF45DF72_t.jpg",
  "height": 1000
 },
 {
@@ -6905,40 +6973,6 @@
  "id": "panorama_4EA9F154_45AC_5DD0_41C0_50B05BF51D5A_camera",
  "initialPosition": {
   "yaw": 0,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
-},
-{
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
- },
- "automaticZoomSpeed": 10,
- "id": "camera_77A90A36_648F_5E9A_41D1_12C9D75E84EB",
- "initialPosition": {
-  "yaw": -140.78,
   "class": "PanoramaCameraPosition",
   "pitch": 0
  }
@@ -7355,9 +7389,9 @@
   "class": "PanoramaCameraSequence"
  },
  "automaticZoomSpeed": 10,
- "id": "camera_77B64A22_648F_5EBA_41CC_F12C137B46AA",
+ "id": "camera_7DADA0F8_6491_CB96_41D6_C413AD7427FE",
  "initialPosition": {
-  "yaw": 37.68,
+  "yaw": -66.59,
   "class": "PanoramaCameraPosition",
   "pitch": 0
  }
@@ -7739,40 +7773,6 @@
  "hfovMax": 130,
  "partial": false,
  "thumbnailUrl": "media/panorama_4F55B52D_45AC_4570_41C6_91A10727E71C_t.jpg"
-},
-{
- "class": "PanoramaCamera",
- "initialSequence": {
-  "movements": [
-   {
-    "easing": "cubic_in",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   },
-   {
-    "easing": "linear",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 323
-   },
-   {
-    "easing": "cubic_out",
-    "yawSpeed": 7.96,
-    "class": "DistancePanoramaCameraMovement",
-    "yawDelta": 18.5
-   }
-  ],
-  "restartMovementOnUserInteraction": false,
-  "class": "PanoramaCameraSequence"
- },
- "automaticZoomSpeed": 10,
- "id": "camera_77EFAA84_648F_5E7F_41A0_F6D95A7BCD5B",
- "initialPosition": {
-  "yaw": -139.37,
-  "class": "PanoramaCameraPosition",
-  "pitch": 0
- }
 },
 {
  "levels": [
@@ -8261,7 +8261,7 @@
  "toolTipShadowColor": "#333333",
  "progressBarBorderSize": 6,
  "transitionDuration": 500,
- "progressBarBorderRadius": 1,
+ "progressBarBorderRadius": 0,
  "paddingTop": 0,
  "shadow": false,
  "playbackBarBorderRadius": 0,
@@ -8370,20 +8370,24 @@
  "paddingLeft": 0,
  "scrollBarWidth": 10,
  "propagateClick": true,
- "width": 533.65,
+ "width": 573,
  "paddingBottom": 0,
  "verticalAlign": "top",
  "overflow": "visible",
  "borderSize": 0,
  "minHeight": 1,
- "top": 12.15,
+ "top": 15,
  "paddingRight": 0,
- "height": 135.7,
+ "height": 133,
  "scrollBarColor": "#000000",
  "horizontalAlign": "left",
  "minWidth": 1,
  "scrollBarVisible": "rollOver",
  "class": "Container",
+ "children": [
+  "this.Label_0DD14F09_1744_0507_41AA_D8475423214A",
+  "this.Label_0DD1AF09_1744_0507_41B4_9F5A60B503B2"
+ ],
  "gap": 10,
  "scrollBarMargin": 2,
  "scrollBarOpacity": 0.5,
@@ -8393,78 +8397,6 @@
   "name": "--STICKER"
  },
  "shadow": false
-},
-{
- "backgroundOpacity": 0,
- "borderRadius": 0,
- "id": "Label_0DD14F09_1744_0507_41AA_D8475423214A",
- "left": 28.25,
- "paddingLeft": 0,
- "fontFamily": "Bebas Neue Bold",
- "propagateClick": true,
- "width": 530.7,
- "paddingBottom": 0,
- "verticalAlign": "top",
- "borderSize": 0,
- "text": "замок острозьких",
- "textShadowBlurRadius": 10,
- "minHeight": 1,
- "top": 8.3,
- "textShadowHorizontalLength": 0,
- "paddingRight": 0,
- "height": 71.35,
- "horizontalAlign": "left",
- "minWidth": 1,
- "fontSize": "78px",
- "fontColor": "#FFFFFF",
- "class": "Label",
- "textShadowOpacity": 1,
- "fontStyle": "normal",
- "paddingTop": 0,
- "textShadowColor": "#000000",
- "shadow": false,
- "textShadowVerticalLength": 0,
- "data": {
-  "name": "\u0417\u0430\u043c\u043e\u043a \u043a\u043d\u044f\u0437\u0456\u0432 \u041e\u0441\u0442\u0440\u043e\u0437\u044c\u043a\u0438\u0445"
- },
- "fontWeight": "bold",
- "textDecoration": "none"
-},
-{
- "backgroundOpacity": 0,
- "borderRadius": 0,
- "paddingLeft": 0,
- "id": "Label_0DD1AF09_1744_0507_41B4_9F5A60B503B2",
- "left": "2.85%",
- "fontFamily": "Bebas Neue Book",
- "right": "47.71%",
- "propagateClick": true,
- "paddingBottom": 0,
- "textShadowBlurRadius": 10,
- "borderSize": 0,
- "text": "мiсто  старокостянтинiв, Хмельницька обл.",
- "minHeight": 1,
- "top": "12.97%",
- "textShadowHorizontalLength": 0,
- "paddingRight": 0,
- "verticalAlign": "top",
- "height": 39.35,
- "horizontalAlign": "left",
- "minWidth": 1,
- "fontSize": "34px",
- "fontColor": "#FFFFFF",
- "class": "Label",
- "textShadowOpacity": 1,
- "fontStyle": "normal",
- "paddingTop": 0,
- "textShadowColor": "#000000",
- "shadow": false,
- "textShadowVerticalLength": 0,
- "data": {
-  "name": "\u043c.\u0421\u0442\u0430\u0440\u043e\u043a\u043e\u0441\u0442\u044f\u043d\u0442\u0438\u043d\u0456\u0432, \u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c"
- },
- "fontWeight": "normal",
- "textDecoration": "none"
 },
 {
  "layout": "absolute",
@@ -8922,7 +8854,7 @@
  "class": "UIComponent",
  "paddingTop": 0,
  "data": {
-  "name": "UIComponent9991"
+  "name": "UIComponent14566"
  },
  "shadow": false,
  "visible": false,
@@ -8948,7 +8880,7 @@
  "class": "ZoomImage",
  "paddingTop": 0,
  "data": {
-  "name": "ZoomImage9992"
+  "name": "ZoomImage14567"
  },
  "shadow": false,
  "visible": false,
@@ -9008,7 +8940,7 @@
  "shadowBlurRadius": 6,
  "paddingTop": 5,
  "data": {
-  "name": "CloseButton9993"
+  "name": "CloseButton14568"
  },
  "shadow": false,
  "visible": false,
@@ -9044,126 +8976,6 @@
  },
  "shadow": false,
  "iconURL": "skin/IconButton_EEFF957A_E389_9A06_41E1_2AD21904F8C0.png"
-},
-{
- "cursor": "hand",
- "borderRadius": 0,
- "maxWidth": 58,
- "id": "IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96",
- "paddingLeft": 0,
- "backgroundOpacity": 0,
- "propagateClick": true,
- "width": 58,
- "maxHeight": 58,
- "verticalAlign": "middle",
- "paddingBottom": 0,
- "borderSize": 0,
- "minHeight": 1,
- "paddingRight": 0,
- "height": 58,
- "horizontalAlign": "center",
- "minWidth": 1,
- "mode": "toggle",
- "class": "IconButton",
- "pressedIconURL": "skin/IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96_pressed.png",
- "transparencyActive": true,
- "paddingTop": 0,
- "data": {
-  "name": "IconButton HS "
- },
- "shadow": false,
- "iconURL": "skin/IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96.png"
-},
-{
- "cursor": "hand",
- "borderRadius": 0,
- "maxWidth": 58,
- "id": "IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A",
- "paddingLeft": 0,
- "backgroundOpacity": 0,
- "propagateClick": true,
- "width": 58,
- "maxHeight": 58,
- "verticalAlign": "middle",
- "paddingBottom": 0,
- "borderSize": 0,
- "minHeight": 1,
- "paddingRight": 0,
- "height": 58,
- "horizontalAlign": "center",
- "minWidth": 1,
- "mode": "toggle",
- "class": "IconButton",
- "pressedIconURL": "skin/IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A_pressed.png",
- "transparencyActive": true,
- "paddingTop": 0,
- "data": {
-  "name": "IconButton GYRO"
- },
- "shadow": false,
- "iconURL": "skin/IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A.png"
-},
-{
- "cursor": "hand",
- "borderRadius": 0,
- "maxWidth": 58,
- "id": "IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB",
- "paddingLeft": 0,
- "backgroundOpacity": 0,
- "propagateClick": true,
- "width": 58,
- "maxHeight": 58,
- "verticalAlign": "middle",
- "paddingBottom": 0,
- "borderSize": 0,
- "rollOverIconURL": "skin/IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB_rollover.png",
- "minHeight": 1,
- "paddingRight": 0,
- "height": 58,
- "horizontalAlign": "center",
- "minWidth": 1,
- "mode": "push",
- "class": "IconButton",
- "transparencyActive": true,
- "paddingTop": 0,
- "data": {
-  "name": "IconButton VR"
- },
- "shadow": false,
- "visible": false,
- "iconURL": "skin/IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB.png"
-},
-{
- "cursor": "hand",
- "borderRadius": 0,
- "maxWidth": 49,
- "id": "IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270",
- "paddingLeft": 0,
- "paddingBottom": 0,
- "right": 30,
- "propagateClick": true,
- "width": 100,
- "maxHeight": 37,
- "borderSize": 0,
- "verticalAlign": "middle",
- "rollOverIconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270_rollover.png",
- "minHeight": 1,
- "paddingRight": 0,
- "height": 75,
- "horizontalAlign": "center",
- "minWidth": 1,
- "mode": "push",
- "bottom": 8,
- "class": "IconButton",
- "pressedIconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270_pressed.png",
- "transparencyActive": true,
- "paddingTop": 0,
- "data": {
-  "name": "IconButton VR"
- },
- "shadow": false,
- "iconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270.png",
- "backgroundOpacity": 0
 },
 {
  "items": [
@@ -9702,6 +9514,126 @@
 {
  "cursor": "hand",
  "borderRadius": 0,
+ "maxWidth": 58,
+ "id": "IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96",
+ "paddingLeft": 0,
+ "backgroundOpacity": 0,
+ "propagateClick": true,
+ "width": 58,
+ "maxHeight": 58,
+ "verticalAlign": "middle",
+ "paddingBottom": 0,
+ "borderSize": 0,
+ "minHeight": 1,
+ "paddingRight": 0,
+ "height": 58,
+ "horizontalAlign": "center",
+ "minWidth": 1,
+ "mode": "toggle",
+ "class": "IconButton",
+ "pressedIconURL": "skin/IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96_pressed.png",
+ "transparencyActive": true,
+ "paddingTop": 0,
+ "data": {
+  "name": "IconButton HS "
+ },
+ "shadow": false,
+ "iconURL": "skin/IconButton_EEEB3760_E38B_8603_41D6_FE6B11A3DA96.png"
+},
+{
+ "cursor": "hand",
+ "borderRadius": 0,
+ "maxWidth": 58,
+ "id": "IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A",
+ "paddingLeft": 0,
+ "backgroundOpacity": 0,
+ "propagateClick": true,
+ "width": 58,
+ "maxHeight": 58,
+ "verticalAlign": "middle",
+ "paddingBottom": 0,
+ "borderSize": 0,
+ "minHeight": 1,
+ "paddingRight": 0,
+ "height": 58,
+ "horizontalAlign": "center",
+ "minWidth": 1,
+ "mode": "toggle",
+ "class": "IconButton",
+ "pressedIconURL": "skin/IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A_pressed.png",
+ "transparencyActive": true,
+ "paddingTop": 0,
+ "data": {
+  "name": "IconButton GYRO"
+ },
+ "shadow": false,
+ "iconURL": "skin/IconButton_EE9FBAB2_E389_8E06_41D7_903ABEDD153A.png"
+},
+{
+ "cursor": "hand",
+ "borderRadius": 0,
+ "maxWidth": 58,
+ "id": "IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB",
+ "paddingLeft": 0,
+ "backgroundOpacity": 0,
+ "propagateClick": true,
+ "width": 58,
+ "maxHeight": 58,
+ "verticalAlign": "middle",
+ "paddingBottom": 0,
+ "borderSize": 0,
+ "rollOverIconURL": "skin/IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB_rollover.png",
+ "minHeight": 1,
+ "paddingRight": 0,
+ "height": 58,
+ "horizontalAlign": "center",
+ "minWidth": 1,
+ "mode": "push",
+ "class": "IconButton",
+ "transparencyActive": true,
+ "paddingTop": 0,
+ "data": {
+  "name": "IconButton VR"
+ },
+ "shadow": false,
+ "visible": false,
+ "iconURL": "skin/IconButton_EF7806FA_E38F_8606_41E5_5C4557EBCACB.png"
+},
+{
+ "cursor": "hand",
+ "borderRadius": 0,
+ "maxWidth": 49,
+ "id": "IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270",
+ "paddingLeft": 0,
+ "paddingBottom": 0,
+ "right": 30,
+ "propagateClick": true,
+ "width": 100,
+ "maxHeight": 37,
+ "borderSize": 0,
+ "verticalAlign": "middle",
+ "rollOverIconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270_rollover.png",
+ "minHeight": 1,
+ "paddingRight": 0,
+ "height": 75,
+ "horizontalAlign": "center",
+ "minWidth": 1,
+ "mode": "push",
+ "bottom": 8,
+ "class": "IconButton",
+ "pressedIconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270_pressed.png",
+ "transparencyActive": true,
+ "paddingTop": 0,
+ "data": {
+  "name": "IconButton VR"
+ },
+ "shadow": false,
+ "iconURL": "skin/IconButton_1B9ADD00_16C4_0505_41B4_B043CA1AA270.png",
+ "backgroundOpacity": 0
+},
+{
+ "cursor": "hand",
+ "borderRadius": 0,
  "maxWidth": 150,
  "id": "IconButton_23F7E7B7_0C0A_6293_419F_D3D84EB3AFBD",
  "paddingLeft": 0,
@@ -9892,7 +9824,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EBD352B_45AC_4570_41A2_9FD293F6567F, this.camera_778D3A55_648F_5E99_41C4_AA3C96F6A1A9); this.mainPlayList.set('selectedIndex', 2)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EBD352B_45AC_4570_41A2_9FD293F6567F, this.camera_7D1B319D_6491_CD89_4188_67B25BFF9F9E); this.mainPlayList.set('selectedIndex', 2)",
    "class": "HotspotPanoramaOverlayArea",
    "toolTip": "\u0412\u0438\u0439\u0442\u0438"
   }
@@ -9939,7 +9871,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EBD352B_45AC_4570_41A2_9FD293F6567F, this.camera_77FE2A75_648F_5E9E_41BC_5540FA3703FB); this.mainPlayList.set('selectedIndex', 2)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EBD352B_45AC_4570_41A2_9FD293F6567F, this.camera_7D0811BD_6491_CD8E_41AA_BB3A58C4EEB6); this.mainPlayList.set('selectedIndex', 2)",
    "class": "HotspotPanoramaOverlayArea",
    "toolTip": "\u0412\u0438\u0439\u0442\u0438"
   }
@@ -10264,7 +10196,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EA99380_45AC_DD30_419E_CC9CD10F3C78, this.camera_77EFAA84_648F_5E7F_41A0_F6D95A7BCD5B); this.mainPlayList.set('selectedIndex', 4)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EA99380_45AC_DD30_419E_CC9CD10F3C78, this.camera_7D3E21CC_6491_CD8E_41D5_C0C7B8BE4014); this.mainPlayList.set('selectedIndex', 4)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -10392,7 +10324,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EA99380_45AC_DD30_419E_CC9CD10F3C78, this.camera_764CF9F3_648F_5D9A_41C9_C1D79C825F2A); this.mainPlayList.set('selectedIndex', 4)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EA99380_45AC_DD30_419E_CC9CD10F3C78, this.camera_7D507132_6491_CA9A_4173_0F3757E4CA8A); this.mainPlayList.set('selectedIndex', 4)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -10428,7 +10360,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EA99380_45AC_DD30_419E_CC9CD10F3C78, this.camera_7642FA03_648F_5E7A_41D7_0843971B8839); this.mainPlayList.set('selectedIndex', 4)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EA99380_45AC_DD30_419E_CC9CD10F3C78, this.camera_7D447141_6491_CAF6_41A1_6F715C9CD459); this.mainPlayList.set('selectedIndex', 4)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -10870,7 +10802,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EBD352B_45AC_4570_41A2_9FD293F6567F, this.camera_77E03AA6_648F_5FBA_41D7_594E911AE693); this.mainPlayList.set('selectedIndex', 2)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EBD352B_45AC_4570_41A2_9FD293F6567F, this.camera_7D2EA1EB_6491_CD89_41BA_00D121BEF716); this.mainPlayList.set('selectedIndex', 2)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -10916,7 +10848,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EBFE47D_45AC_3BD0_41BD_6DADA93B6DB8, this.camera_766209AD_648F_5D8E_4197_25C8FAC51230); this.mainPlayList.set('selectedIndex', 3)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EBFE47D_45AC_3BD0_41BD_6DADA93B6DB8, this.camera_7DADA0F8_6491_CB96_41D6_C413AD7427FE); this.mainPlayList.set('selectedIndex', 3)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -10962,7 +10894,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EBFE47D_45AC_3BD0_41BD_6DADA93B6DB8, this.camera_765D19BD_648F_5D8E_41B6_C2807CEA06B0); this.mainPlayList.set('selectedIndex', 3)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EBFE47D_45AC_3BD0_41BD_6DADA93B6DB8, this.camera_7DA51107_6491_CA79_41C1_314C9AD66E5B); this.mainPlayList.set('selectedIndex', 3)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -10998,7 +10930,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_43AFBB22_5B18_8100_41D1_408BEDAEF925, this.camera_7654F9D1_648F_5D96_41C0_1B4728A65273); this.mainPlayList.set('selectedIndex', 0)",
+   "click": "this.startPanoramaWithCamera(this.panorama_43AFBB22_5B18_8100_41D1_408BEDAEF925, this.camera_7D5F311C_6491_CA8E_41D6_03038DC00946); this.mainPlayList.set('selectedIndex', 0)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -11195,7 +11127,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EBFE47D_45AC_3BD0_41BD_6DADA93B6DB8, this.camera_77B64A22_648F_5EBA_41CC_F12C137B46AA); this.mainPlayList.set('selectedIndex', 3)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EBFE47D_45AC_3BD0_41BD_6DADA93B6DB8, this.camera_7D79D161_6491_CAB6_41D8_DEC22BC9C213); this.mainPlayList.set('selectedIndex', 3)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -11611,7 +11543,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EA7C265_45AC_FFF0_41D0_182487412BA6, this.camera_77A90A36_648F_5E9A_41D1_12C9D75E84EB); this.mainPlayList.set('selectedIndex', 5)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EA7C265_45AC_FFF0_41D0_182487412BA6, this.camera_7D6C816A_6491_CA8A_41B7_B6DCE6E4A175); this.mainPlayList.set('selectedIndex', 5)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -11647,7 +11579,7 @@
  "areas": [
   {
    "mapColor": "#FF0000",
-   "click": "this.startPanoramaWithCamera(this.panorama_4EA7C265_45AC_FFF0_41D0_182487412BA6, this.camera_779A5A46_648F_5EFA_41D4_64CBF4039EE3); this.mainPlayList.set('selectedIndex', 5)",
+   "click": "this.startPanoramaWithCamera(this.panorama_4EA7C265_45AC_FFF0_41D0_182487412BA6, this.camera_7D60318E_6491_CD8A_41B1_724AD4FC046A); this.mainPlayList.set('selectedIndex', 5)",
    "class": "HotspotPanoramaOverlayArea"
   }
  ],
@@ -11765,6 +11697,78 @@
  },
  "shadow": false,
  "visible": false,
+ "backgroundOpacity": 0
+},
+{
+ "backgroundOpacity": 0,
+ "borderRadius": 0,
+ "id": "Label_0DD14F09_1744_0507_41AA_D8475423214A",
+ "left": 0,
+ "paddingLeft": 0,
+ "fontFamily": "Bebas Neue Bold",
+ "propagateClick": true,
+ "width": 454,
+ "paddingBottom": 0,
+ "verticalAlign": "top",
+ "borderSize": 0,
+ "text": "замок острозьких",
+ "textShadowBlurRadius": 10,
+ "minHeight": 1,
+ "top": 5,
+ "textShadowHorizontalLength": 0,
+ "paddingRight": 0,
+ "height": 86,
+ "horizontalAlign": "left",
+ "minWidth": 1,
+ "fontSize": "70px",
+ "fontColor": "#FFFFFF",
+ "class": "Label",
+ "textShadowOpacity": 1,
+ "fontStyle": "normal",
+ "paddingTop": 0,
+ "textShadowColor": "#000000",
+ "shadow": false,
+ "textShadowVerticalLength": 0,
+ "data": {
+  "name": "text 1"
+ },
+ "fontWeight": "bold",
+ "textDecoration": "none"
+},
+{
+ "borderRadius": 0,
+ "id": "Label_0DD1AF09_1744_0507_41B4_9F5A60B503B2",
+ "left": 0,
+ "paddingLeft": 0,
+ "fontFamily": "Bebas Neue Book",
+ "propagateClick": true,
+ "width": 388,
+ "paddingBottom": 0,
+ "verticalAlign": "top",
+ "borderSize": 0,
+ "text": "мiсто старокостянтинiв",
+ "textShadowBlurRadius": 10,
+ "minHeight": 1,
+ "textShadowHorizontalLength": 0,
+ "paddingRight": 0,
+ "height": 46,
+ "horizontalAlign": "left",
+ "minWidth": 1,
+ "fontSize": 41,
+ "bottom": 0,
+ "fontColor": "#FFFFFF",
+ "class": "Label",
+ "textShadowOpacity": 1,
+ "fontStyle": "normal",
+ "paddingTop": 0,
+ "textShadowColor": "#000000",
+ "shadow": false,
+ "textShadowVerticalLength": 0,
+ "data": {
+  "name": "text 2"
+ },
+ "fontWeight": "normal",
+ "textDecoration": "none",
  "backgroundOpacity": 0
 },
 {
@@ -11938,21 +11942,21 @@
   0,
   1
  ],
+ "shadowOpacity": 0.3,
  "overflow": "scroll",
  "borderSize": 0,
  "verticalAlign": "top",
- "minHeight": 1,
- "shadowOpacity": 0.3,
  "shadowVerticalLength": 0,
+ "minHeight": 1,
  "top": "5%",
  "paddingRight": 0,
  "shadowHorizontalLength": 0,
- "bottom": "5%",
  "scrollBarColor": "#000000",
  "backgroundColorDirection": "vertical",
  "horizontalAlign": "left",
  "minWidth": 1,
  "scrollBarVisible": "rollOver",
+ "bottom": "5%",
  "backgroundColor": [
   "#FFFFFF",
   "#FFFFFF"
@@ -11981,10 +11985,10 @@
  "paddingLeft": 0,
  "id": "Container_23F097B8_0C0A_629D_4176_D87C90BA32B6",
  "left": "10%",
- "paddingBottom": 0,
  "scrollBarWidth": 10,
  "right": "10%",
  "propagateClick": false,
+ "paddingBottom": 0,
  "overflow": "visible",
  "borderSize": 0,
  "verticalAlign": "top",
@@ -12270,21 +12274,21 @@
   0,
   1
  ],
+ "shadowOpacity": 0.3,
  "overflow": "visible",
  "borderSize": 0,
  "verticalAlign": "top",
- "minHeight": 1,
- "shadowOpacity": 0.3,
  "shadowVerticalLength": 0,
+ "minHeight": 1,
  "top": "7%",
  "paddingRight": 0,
  "shadowHorizontalLength": 0,
- "bottom": "7%",
  "scrollBarColor": "#000000",
  "backgroundColorDirection": "vertical",
  "horizontalAlign": "center",
  "minWidth": 1,
  "scrollBarVisible": "rollOver",
+ "bottom": "7%",
  "backgroundColor": [
   "#FFFFFF",
   "#FFFFFF"
@@ -12691,7 +12695,7 @@
  "paddingLeft": 0,
  "iconWidth": 0,
  "shadowColor": "#000000",
- "fontFamily": "Montserrat",
+ "fontFamily": "Bebas Neue Book",
  "backgroundOpacity": 0,
  "propagateClick": true,
  "width": 120,
@@ -12753,7 +12757,7 @@
  "paddingLeft": 0,
  "iconWidth": 32,
  "shadowColor": "#000000",
- "fontFamily": "Montserrat",
+ "fontFamily": "Bebas Neue Book",
  "backgroundOpacity": 0,
  "propagateClick": true,
  "width": 130,
@@ -12784,7 +12788,7 @@
  "minWidth": 1,
  "mode": "push",
  "fontSize": 12,
- "label": "\u041f\u0410\u041d\u041e\u0420\u0410\u041c\u0418",
+ "label": "\u0421\u041f\u0418\u0421\u041e\u041a \u041f\u0410\u041d\u041e\u0420\u0410\u041c",
  "fontColor": "#FFFFFF",
  "click": "this.setComponentVisibility(this.Container_39DE87B1_0C06_62AF_417B_8CB0FB5C9D15, true, 0, null, null, false)",
  "class": "Button",
@@ -12817,7 +12821,7 @@
  "paddingLeft": 0,
  "iconWidth": 32,
  "shadowColor": "#000000",
- "fontFamily": "Montserrat",
+ "fontFamily": "Bebas Neue Book",
  "backgroundOpacity": 0,
  "propagateClick": true,
  "width": 90,
@@ -12848,7 +12852,7 @@
  "minWidth": 1,
  "mode": "push",
  "fontSize": 12,
- "label": "\u041b\u041e\u041a\u0410\u0426\u0406\u042f",
+ "label": "\u041a\u041e\u041d\u0422\u0410\u041a\u0422\u0418",
  "fontColor": "#FFFFFF",
  "click": "this.setComponentVisibility(this.Container_221B1648_0C06_E5FD_417F_E6FCCCB4A6D7, true, 0, null, null, false)",
  "class": "Button",
@@ -12881,7 +12885,7 @@
  "paddingLeft": 0,
  "iconWidth": 32,
  "shadowColor": "#000000",
- "fontFamily": "Montserrat",
+ "fontFamily": "Bebas Neue Book",
  "backgroundOpacity": 0,
  "propagateClick": true,
  "width": 103,
@@ -12945,7 +12949,7 @@
  "paddingLeft": 0,
  "iconWidth": 32,
  "shadowColor": "#000000",
- "fontFamily": "Montserrat",
+ "fontFamily": "Bebas Neue Book",
  "backgroundOpacity": 0,
  "propagateClick": true,
  "width": 90,
@@ -13254,7 +13258,7 @@
  "horizontalAlign": "left",
  "minWidth": 1,
  "scrollBarVisible": "rollOver",
- "height": 84,
+ "height": 73.35,
  "class": "Container",
  "children": [
   "this.HTMLText_3918BF37_0C06_E393_41A1_17CF0ADBAB12",
@@ -13328,7 +13332,7 @@
  "itemPaddingLeft": 3,
  "rollOverItemLabelFontColor": "#04A3E1",
  "paddingLeft": 70,
- "height": "100%",
+ "height": "82.401%",
  "selectedItemThumbnailShadow": true,
  "itemBackgroundOpacity": 0,
  "itemThumbnailBorderRadius": 0,
@@ -13411,7 +13415,7 @@
   0,
   1
  ],
- "width": "49.116%",
+ "width": "15%",
  "overflow": "visible",
  "borderSize": 0,
  "minHeight": 1,
@@ -13575,7 +13579,7 @@
  "toolTipShadowColor": "#333333",
  "progressBarBorderSize": 6,
  "transitionDuration": 500,
- "progressBarBorderRadius": 1,
+ "progressBarBorderRadius": 0,
  "paddingTop": 0,
  "shadow": false,
  "playbackBarBorderRadius": 0,
@@ -14101,7 +14105,7 @@
  "toolTipShadowColor": "#333333",
  "progressBarBorderSize": 6,
  "transitionDuration": 500,
- "progressBarBorderRadius": 1,
+ "progressBarBorderRadius": 0,
  "paddingTop": 0,
  "shadow": false,
  "playbackBarBorderRadius": 0,
@@ -14350,7 +14354,7 @@
  "class": "HTMLText",
  "scrollBarMargin": 2,
  "height": "100%",
- "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:5.05vh;font-family:'Bebas Neue Bold';\">___</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:5.05vh;font-family:'Bebas Neue Bold';\">Panorama list:</SPAN></SPAN></DIV></div>",
+ "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:5.05vh;font-family:'Bebas Neue Bold';\">___</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:5.05vh;font-family:'Bebas Neue Bold';\">\u0421\u043f\u0438\u0441\u043e\u043a \u043f\u0430\u043d\u043e\u0440\u0430\u043c:</SPAN></SPAN></DIV></div>",
  "paddingTop": 0,
  "data": {
   "name": "HTMLText54192"
@@ -14401,7 +14405,7 @@
  "backgroundColorRatios": [
   0
  ],
- "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10309.779603517936!2d27.213118992822775!3d49.758887613193195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472de0a2ebf1cc9f%3A0x1d9fb1d4c833ce40!2z0JfQsNC80L7QuiDQutC90Y_Qt9C10Lkg0J7RgdGC0YDQvtC20YHQutC40YU!5e0!3m2!1sru!2sua!4v1732478295697!5m2!1sru!2sua\" width=\\\"600\\\" height=\\\"450\\\" frameborder=\\\"0\\\" style=\\\"border:0\\\" allowfullscreen>",
+ "url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10309.779603517936!2d27.213118992822775!3d49.758887613193195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472de0a2ebf1cc9f%3A0x1d9fb1d4c833ce40!2z0JfQsNC80L7QuiDQutC90Y_Qt9C10Lkg0J7RgdGC0YDQvtC20YHQutC40YU!5e0!3m2!1sru!2sua!4v1732478295697!5m2!1sru!2sua\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen>",
  "borderSize": 0,
  "minHeight": 1,
  "top": "0%",
@@ -14727,7 +14731,7 @@
  "toolTipShadowColor": "#333333",
  "progressBarBorderSize": 6,
  "transitionDuration": 500,
- "progressBarBorderRadius": 1,
+ "progressBarBorderRadius": 0,
  "paddingTop": 0,
  "shadow": false,
  "playbackBarBorderRadius": 0,
@@ -14851,7 +14855,7 @@
  "toolTipShadowColor": "#333333",
  "progressBarBorderSize": 6,
  "transitionDuration": 500,
- "progressBarBorderRadius": 1,
+ "progressBarBorderRadius": 0,
  "paddingTop": 0,
  "shadow": false,
  "playbackBarBorderRadius": 0,
@@ -15120,7 +15124,7 @@
  "class": "HTMLText",
  "scrollBarMargin": 2,
  "height": "100%",
- "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:7.75vh;font-family:'Bebas Neue Bold';\">___</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:6.67vh;font-family:'Bebas Neue Bold';\">I\u0441\u0442\u043e\u0440\u0438\u043a\u043e-\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u0438\u0439 \u0446\u0435\u043d\u0442\u0440-\u043c\u0443\u0437\u0435\u0439 \u00ab\u0421\u0442\u0430\u0440\u0438\u0439 \u041a\u043e\u0441\u0442\u044f\u043d\u0442\u0438\u043di\u0432\u00bb</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:2.88vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:2.88vh;font-family:'Bebas Neue Bold';\">consectetur adipiscing elit. Morbi bibendum pharetra lorem, accumsan san nulla.</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:0.54vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\">Mauris aliquet neque quis libero consequat vestibulum. Donec lacinia consequat dolor viverra sagittis. Praesent consequat porttitor risus, eu condimentum nunc. Proin et velit ac sapien luctus efficitur egestas ac augue. Nunc dictum, augue eget eleifend interdum, quam libero imperdiet lectus, vel scelerisque turpis lectus vel ligula. Duis a porta sem. Maecenas sollicitudin nunc id risus fringilla, a pharetra orci iaculis. Aliquam turpis ligula, tincidunt sit amet consequat ac, imperdiet non dolor.</SPAN></DIV><p STYLE=\"margin:0; line-height:0.54vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\">Integer gravida dui quis euismod placerat. Maecenas quis accumsan ipsum. Aliquam gravida velit at dolor mollis, quis luctus mauris vulputate. Proin condimentum id nunc sed sollicitudin.</SPAN></DIV><p STYLE=\"margin:0; line-height:2.16vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;font-family:'Bebas Neue Bold';\"><B>Donec feugiat:</B></SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Nisl nec mi sollicitudin facilisis </SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Nam sed faucibus est.</SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Ut eget lorem sed leo.</SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Sollicitudin tempor sit amet non urna. </SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Aliquam feugiat mauris sit amet.</SPAN></DIV><p STYLE=\"margin:0; line-height:2.16vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;font-family:'Bebas Neue Bold';\"><B>lorem ipsum:</B></SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:3.06vh;font-family:'Bebas Neue Bold';\"><B>$150,000</B></SPAN></SPAN></DIV></div>",
+ "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:7.75vh;font-family:'Bebas Neue Bold';\">___</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:5.95vh;font-family:'Bebas Neue Bold';\">I\u0441\u0442\u043e\u0440\u0438\u043a\u043e-\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u0438\u0439 \u0446\u0435\u043d\u0442\u0440-\u043c\u0443\u0437\u0435\u0439 \u00ab\u0421\u0442\u0430\u0440\u0438\u0439 \u041a\u043e\u0441\u0442\u044f\u043d\u0442\u0438\u043di\u0432\u00bb</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:3.42vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:3.42vh;font-family:'Bebas Neue Bold';\">consectetur adipiscing elit. Morbi bibendum pharetra lorem, accumsan san nulla.</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:1.08vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\">Mauris aliquet neque quis libero consequat vestibulum. Donec lacinia consequat dolor viverra sagittis. Praesent consequat porttitor risus, eu condimentum nunc. Proin et velit ac sapien luctus efficitur egestas ac augue. Nunc dictum, augue eget eleifend interdum, quam libero imperdiet lectus, vel scelerisque turpis lectus vel ligula. Duis a porta sem. Maecenas sollicitudin nunc id risus fringilla, a pharetra orci iaculis. Aliquam turpis ligula, tincidunt sit amet consequat ac, imperdiet non dolor.</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:2.7vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.7vh;font-family:'Bebas Neue Bold';\"><B>Donec feugiat:</B></SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Nisl nec mi sollicitudin facilisis </SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Nam sed faucibus est.</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Ut eget lorem sed leo.</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Sollicitudin tempor sit amet non urna. </SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Aliquam feugiat mauris sit amet.</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:2.7vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.7vh;font-family:'Bebas Neue Bold';\"><B>lorem ipsum:</B></SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:3.6vh;font-family:'Bebas Neue Bold';\"><B>$150,000</B></SPAN></SPAN></DIV></div>",
  "paddingTop": 0,
  "data": {
   "name": "HTMLText"
@@ -15232,7 +15236,7 @@
  "class": "HTMLText",
  "scrollBarMargin": 2,
  "height": "100%",
- "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:7.75vh;font-family:'Bebas Neue Bold';\">___</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:6.67vh;font-family:'Bebas Neue Bold';\">I\u0441\u0442\u043e\u0440\u0438\u043a\u043e-\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u0438\u0439 \u0446\u0435\u043d\u0442\u0440-\u043c\u0443\u0437\u0435\u0439 \u00ab\u0421\u0442\u0430\u0440\u0438\u0439 \u041a\u043e\u0441\u0442\u044f\u043d\u0442\u0438\u043di\u0432\u00bb</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:2.88vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:2.88vh;font-family:'Bebas Neue Bold';\">consectetur adipiscing elit. Morbi bibendum pharetra lorem, accumsan san nulla.</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:0.54vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\">Mauris aliquet neque quis libero consequat vestibulum. Donec lacinia consequat dolor viverra sagittis. Praesent consequat porttitor risus, eu condimentum nunc. Proin et velit ac sapien luctus efficitur egestas ac augue. Nunc dictum, augue eget eleifend interdum, quam libero imperdiet lectus, vel scelerisque turpis lectus vel ligula. Duis a porta sem. Maecenas sollicitudin nunc id risus fringilla, a pharetra orci iaculis. Aliquam turpis ligula, tincidunt sit amet consequat ac, imperdiet non dolor.</SPAN></DIV><p STYLE=\"margin:0; line-height:0.54vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\">Integer gravida dui quis euismod placerat. Maecenas quis accumsan ipsum. Aliquam gravida velit at dolor mollis, quis luctus mauris vulputate. Proin condimentum id nunc sed sollicitudin.</SPAN></DIV><p STYLE=\"margin:0; line-height:2.16vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;font-family:'Bebas Neue Bold';\"><B>Donec feugiat:</B></SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Nisl nec mi sollicitudin facilisis </SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Nam sed faucibus est.</SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Ut eget lorem sed leo.</SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Sollicitudin tempor sit amet non urna. </SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"> \u2022 Aliquam feugiat mauris sit amet.</SPAN></DIV></div>",
+ "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:7.75vh;font-family:'Bebas Neue Bold';\">___</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:6.67vh;font-family:'Bebas Neue Bold';\">Lorem ipsum</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:6.67vh;font-family:'Bebas Neue Bold';\">dolor sit amet</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:3.42vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:3.42vh;font-family:'Bebas Neue Bold';\">consectetur adipiscing elit. Morbi bibendum pharetra lorem, accumsan san nulla.</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:1.08vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\">Mauris aliquet neque quis libero consequat vestibulum. Donec lacinia consequat dolor viverra sagittis. Praesent consequat porttitor risus, eu condimentum nunc. Proin et velit ac sapien luctus efficitur egestas ac augue. Nunc dictum, augue eget eleifend interdum, quam libero imperdiet lectus, vel scelerisque turpis lectus vel ligula. Duis a porta sem. Maecenas sollicitudin nunc id risus fringilla, a pharetra orci iaculis. Aliquam turpis ligula, tincidunt sit amet consequat ac, imperdiet non dolor.</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:1.08vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\">Integer gravida dui quis euismod placerat. Maecenas quis accumsan ipsum. Aliquam gravida velit at dolor mollis, quis luctus mauris vulputate. Proin condimentum id nunc sed sollicitudin.</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:2.7vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.7vh;font-family:'Bebas Neue Bold';\"><B>Donec feugiat:</B></SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Nisl nec mi sollicitudin facilisis </SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Nam sed faucibus est.</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Ut eget lorem sed leo.</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Sollicitudin tempor sit amet non urna. </SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.08vh;\"> \u2022 Aliquam feugiat mauris sit amet.</SPAN></SPAN></DIV></div>",
  "paddingTop": 0,
  "data": {
   "name": "HTMLText"
@@ -15313,7 +15317,7 @@
  "class": "HTMLText",
  "scrollBarMargin": 2,
  "height": "100%",
- "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:7.75vh;font-family:'Bebas Neue Bold';\">___</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:5.41vh;font-family:'Bebas Neue Bold';\">\u0417\u0430\u043c\u043e\u043a \u043a\u043d\u044f\u0437i\u0432 \u041e\u0441\u0442\u0440\u043e\u0436\u0441\u044c\u043a\u0438\u0445</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:1.26vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:2.88vh;font-family:'Bebas Neue Bold';\">\u0432\u0443\u043b\u0438\u0446\u044f \u0417\u0430\u043c\u043a\u043e\u0432\u0430, 1/1,</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:2.88vh;font-family:'Bebas Neue Bold';\">\u0421\u0442\u0430\u0440\u043e\u043a\u043e\u0441\u0442\u044f\u043d\u0442\u0438\u043di\u0432, \u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c, 31100</SPAN></SPAN></DIV></div>",
+ "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:7.75vh;font-family:'Bebas Neue Bold';\">___</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:5.05vh;font-family:'Bebas Neue Bold';\">I\u0441\u0442\u043e\u0440\u0438\u043a\u043e-\u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u0438\u0439 \u0446\u0435\u043d\u0442\u0440-\u043c\u0443\u0437\u0435\u0439 </SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:5.05vh;font-family:'Bebas Neue Bold';\">\u201c\u0421\u0442\u0430\u0440\u0438\u0439 \u041a\u043e\u0441\u0442\u044f\u043d\u0442\u0438\u043di\u0432\u201d</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:1.8vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:3.42vh;font-family:'Bebas Neue Bold';\">\u043ci\u0441\u0442\u043e \u0421\u0442\u0430\u0440\u043e\u043a\u043e\u0441\u0442\u044f\u043d\u0442\u0438\u043di\u0432, </SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:3.42vh;font-family:'Bebas Neue Bold';\">\u0432\u0443\u043b. \u0417\u0430\u043c\u043a\u043e\u0432\u0430 1-\u0410</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:3.42vh;font-family:'Bebas Neue Bold';\">+38 (067) 7563330</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:3.42vh;font-family:'Bebas Neue Bold';\">\u2022 zamokostrozkyh@gmail.com</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:2.16vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;\">\u0417\u0438\u043c\u043e\u0432\u0438\u0439 \u043f\u0435\u0440i\u043e\u0434 (01 \u0436\u043e\u0432\u0442\u043d\u044f - 30 \u043a\u0432i\u0442\u043d\u044f):</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;\">\u2022 \u041f\u043e\u043d\u0435\u0434i\u043b\u043e\u043a - \u043f\u2019\u044f\u0442\u043d\u0438\u0446\u044f - 08.00 - 17.00</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;\">\u2022 \u0421\u0443\u0431\u043e\u0442\u0430 - \u043d\u0435\u0434i\u043b\u044f - 09.00 - 17.00</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;\">\u2022 \u041e\u0431i\u0434\u043d\u044f \u043f\u0435\u0440\u0435\u0440\u0432\u0430 - 12.00 - 13.00</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:2.16vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;\">\u041bi\u0442\u043d\u0456\u0439 \u043f\u0435\u0440i\u043e\u0434 (30 \u043a\u0432\u0456\u0442\u043d\u044f - 30 \u0432\u0435\u0440\u0435\u0441\u043d\u044f):</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;\">\u2022 \u041f\u043e\u043d\u0435\u0434i\u043b\u043e\u043a - \u043f\u2019\u044f\u0442\u043d\u0438\u0446\u044f - 08.00 - 19.00</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;\">\u2022 \u0421\u0443\u0431\u043e\u0442\u0430 - \u043d\u0435\u0434i\u043b\u044f - 09.00 - 19.00</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:2.16vh;\">\u2022 \u041e\u0431i\u0434\u043d\u044f \u043f\u0435\u0440\u0435\u0440\u0432\u0430 - 12.00 - 13.00</SPAN></SPAN></DIV></div>",
  "paddingTop": 0,
  "data": {
   "name": "HTMLText"
@@ -15491,7 +15495,7 @@
  "class": "HTMLText",
  "scrollBarMargin": 2,
  "height": "100%",
- "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:2.88vh;font-family:'Bebas Neue Bold';\">\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u041c\u0435\u043b\u0435\u0448\u043a\u043e</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.44vh;font-family:'Bebas Neue Bold';\">full-stack developer</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:1.26vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#999999;font-size:1.26vh;font-family:'Bebas Neue Bold';\">Tlf.: +38 0954664190</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#999999;font-size:1.26vh;font-family:'Bebas Neue Bold';\">boss@starkon.pp.ua</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#999999;font-size:1.26vh;font-family:'Bebas Neue Bold';\">www.cfhope.in.ua</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:0.54vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:0.54vh;font-family:Arial, Helvetica, sans-serif;\"/></p></div>",
+ "html": "<div style=\"text-align:left; color:#000; \"><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#04a3e1;font-size:3.42vh;font-family:'Bebas Neue Bold';\">\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u041c\u0435\u043b\u0435\u0448\u043a\u043e</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"font-size:1.98vh;font-family:'Bebas Neue Bold';\">Full-stack developer</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:1.8vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#999999;font-size:1.8vh;font-family:'Bebas Neue Bold';\">Tlf.: +38 095 466 41 90</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#999999;font-size:1.8vh;font-family:'Bebas Neue Bold';\">boss@starkon.pp.ua</SPAN></SPAN></DIV><DIV STYLE=\"text-align:left;\"><SPAN STYLE=\"letter-spacing:0vh;color:#000000;font-family:Arial, Helvetica, sans-serif;\"><SPAN STYLE=\"color:#999999;font-size:1.8vh;font-family:'Bebas Neue Bold';\">www.cfhope.in.ua</SPAN></SPAN></DIV><p STYLE=\"margin:0; line-height:1.08vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><p STYLE=\"margin:0; line-height:1.08vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p><p STYLE=\"margin:0; line-height:1.08vh;\"><BR STYLE=\"letter-spacing:0vh;color:#000000;font-size:1.08vh;font-family:Arial, Helvetica, sans-serif;\"/></p></div>",
  "paddingTop": 0,
  "data": {
   "name": "HTMLText19460"
@@ -15508,8 +15512,6 @@
   "this.MainViewer",
   "this.Container_EF8F8BD8_E386_8E03_41E3_4CF7CC1F4D8E",
   "this.Container_0DD1BF09_1744_0507_41B3_29434E440055",
-  "this.Label_0DD14F09_1744_0507_41AA_D8475423214A",
-  "this.Label_0DD1AF09_1744_0507_41B4_9F5A60B503B2",
   "this.Container_1B9AAD00_16C4_0505_41B5_6F4AE0747E48",
   "this.Container_062AB830_1140_E215_41AF_6C9D65345420",
   "this.Container_23F0F7B8_0C0A_629D_418A_F171085EFBF8",
